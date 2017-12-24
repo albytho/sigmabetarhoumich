@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+@import url('https://fonts.googleapis.com/css?family=Oswald');
+
+html, body {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	width: 100%;
+  background-color: #F8F8F8;
+}
+
+.intro{
+	width: 100%;
+	height: 100%; 
+	margin: 0 auto;
+	display: table;
+  background-image: url("img/umich.jpg");
+	top: 0;
+	background-size: cover;
+}
+
+.card-overlay {
+  content:'';
+  position:absolute;
+  left:0px;
+  top:0px;
+  width:100%;
+  height:100%;
+  background: rgba(0, 0, 0, 0.72);
+}
+
+.corner_image{
+  width:20%;
+  height:20%;
+  margin-right:5px;
+  position:relative;
+  float:left;
+}
+
+.letters{
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  color: #fff;
+  font-size: 400%;
+  transform: translateX(-50%) translateY(-50%);
+}
+
+.colony{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  color: #fff;
+  font-size: 200%;
+  opacity: 0.8;
+  transform: translateX(-50%) translateY(-50%);
+}
+
+.about_us{
+  width: 100%;
+  height: 100%; 
+  margin: 0 auto;
+  display: table;
+  background-color: #F8F8F8;
+  top: 0;
+  background-size: cover;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  width: 655px;
+  margin: auto;
+
+
+}
+
+.society{
+  width: 100%;
+  height: 100%; 
+  margin: 0 auto;
+  display: table;
+  background-color: #371e1c;
+  top: 0;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  background-size: cover;
+}
+
+.brotherhood{
+  width: 100%;
+  height: 100%; 
+  margin: 0 auto;
+  display: table;
+  background-color: #2d2d2d;
+  top: 0;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  background-size: cover;
+}
+
+.rememberance{
+  width: 100%;
+  height: 100%; 
+  margin: 0 auto;
+  display: table;
+  background-color: #273329;
+  top: 0;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  background-size: cover;
+}
+
+p{
+  font-size: 90%;
+  font-family: 'Circular Std Book';
+}
+
+.pillars{
+  width: 655px;
+  margin: auto;
+  font-size: 120%;
+  color: #fff;
+}
+
