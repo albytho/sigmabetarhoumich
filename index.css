@@ -110,6 +110,11 @@ html, body {
   padding-right: 10%;
 }
 
+.FAQ p{
+  font-size: 95%;
+  font-family: 'Circular Std Book';
+}
+
 p{
   font-size: 105%;
   font-family: 'Circular Std Book';
